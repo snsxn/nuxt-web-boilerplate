@@ -1,0 +1,39 @@
+{
+  "name": "nuxt-web-boilerplate",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Simple website development with Nuxt 2",
+  "keywords": [
+    "nuxt",
+    "nuxtjs",
+    "webdev",
+    "ssr",
+    "vue ssr",
+    "vue",
+    "vuejs"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "generate:modern": "nuxt generate --modern",
+    "lint": "eslint --ext \".js,.vue\" --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "core-js": "^3.19.3",
+    "nuxt": "^2.15.8"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@nuxt/types": "^2.15.8",
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "eslint": "^7.29.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "less": "^4.1.2",
+    "less-loader": "^7.3.0"
+  }
+}
